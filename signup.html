@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <img class="logo" src="logo.png" alt="logo">
+    <section class="login">
+    <div class="login-box">
+        <form action="">
+          <h2>Register</h2>
+          <div class="input-box">
+            <span class="icon"></span>
+            <input type="text" required>
+            <label>Sponsor ID</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"></span>
+            <input type="text" required>
+            <label>Username</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"></span>
+            <input type="text" required>
+            <label>Phone No.</label>
+          </div>
+          <div class="input-box">
+            <input type="text" required>
+            <label>User E-mail</label>
+            <button class="otp">Get OTP</button>
+          </div>
+          <div class="input-box">
+            <input type="text" required>
+            <label>Enter OTP</label>
+            <button class="otp">Verify OTP</button>
+          </div>
+          <div class="input-box">
+            <input type="text" required>
+            <label>City</label>
+          </div>
+          <div class="input-box">
+            <input type="text" required>
+            <label>Address</label>
+          </div>
+          <div class="input-box">
+            <input type="text" required>
+            <label>Payment Method</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" required>
+            <label>I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+          </div>
+          <button class="register" type="submit" target="index.html">Register</button>
+        </form>
+    </div>
+  </section>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="./signup.ts"></script>
+</body>
+</html>
